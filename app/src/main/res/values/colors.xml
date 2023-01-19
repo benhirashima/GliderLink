@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#1565c0</color>
+	<color name="colorPrimaryDark">#0d47a1</color>
+	<color name="colorAccent">#2979ff</color>
+	<color name="colorCharcoal">#515151</color>
+	<color name="colorExpiredGlider">#ff5252</color>
+	<color name="colorFreshGlider">#388e3c</color>
+	<color name="colorOwnShip">#1565c0</color>
+	<color name="colorStaleGlider">#f57f17</color>
+	<color name="colorTransWhite">#99FFFFFF</color>
+	<color name="colorInfoBoxDivider">#33FFFFFF</color>
+	<color name="colorInfoBoxBackground">#1565c0</color>
+	<color name="colorWhite">#FFFFFFFF</color>
+	<color name="colorPositiveGreen">#64dd17</color>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="distance_units">
+		<item>nm</item>
+		<item>km</item>
+		<item>sm</item>
+	</string-array>
+	<string-array name="altitude_units">
+		<item>ft</item>
+		<item>m</item>
+	</string-array>
+	<string-array name="vert_speed_units">
+		<item>kts</item>
+		<item>m/s</item>
+		<item>fpm</item>
+	</string-array>
+	<string-array name="airspeed_units">
+		<item>kts</item>
+		<item>kmh</item>
+		<item>mph</item>
+	</string-array>
+</resources>

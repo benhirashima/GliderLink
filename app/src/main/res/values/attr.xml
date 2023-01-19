@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="GliderIcon">
+		<attr name="glider_background" format="color" />
+		<attr name="glider_color" format="color" />
+	</declare-styleable>
+</resources>

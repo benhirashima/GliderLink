@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<ListPreference
+		android:key="@string/pref_key_distance_units"
+		android:entries="@array/distance_units"
+		android:entryValues="@array/distance_units"
+		android:title="@string/pref_title_distance_units"
+		android:defaultValue="nm"/>
+
+	<ListPreference
+		android:key="@string/pref_key_altitude_units"
+		android:entries="@array/altitude_units"
+		android:entryValues="@array/altitude_units"
+		android:title="@string/pref_title_altitude_units"
+		android:defaultValue="ft"/>
+
+	<ListPreference
+		android:key="@string/pref_key_vert_speed_units"
+		android:entries="@array/vert_speed_units"
+		android:entryValues="@array/vert_speed_units"
+		android:title="@string/pref_title_vert_speed_units"
+		android:defaultValue="kts"/>
+
+	<ListPreference
+		android:key="@string/pref_key_airspeed_units"
+		android:entries="@array/airspeed_units"
+		android:entryValues="@array/airspeed_units"
+		android:title="@string/pref_title_airspeed_units"
+		android:defaultValue="kts"/>
+</PreferenceScreen>

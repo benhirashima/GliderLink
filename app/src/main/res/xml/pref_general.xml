@@ -1,0 +1,33 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<EditTextPreference
+		android:capitalize="characters"
+		android:inputType="textCapCharacters"
+		android:maxLength="3"
+		android:key="@string/pref_key_callsign"
+		android:title="@string/pref_title_callsign"
+		android:maxLines="1"
+		android:selectAllOnFocus="true"
+		android:singleLine="true"/>
+
+	<!--<EditTextPreference-->
+		<!--android:capitalize="words"-->
+		<!--android:inputType="textCapWords"-->
+		<!--android:maxLength="32"-->
+		<!--android:key="@string/pref_key_pilot_name"-->
+		<!--android:title="@string/pref_title_pilot_name"-->
+		<!--android:maxLines="1"-->
+		<!--android:selectAllOnFocus="true"-->
+		<!--android:singleLine="true"/>-->
+
+	<!--<EditTextPreference-->
+		<!--android:capitalize="words"-->
+		<!--android:inputType="textCapWords"-->
+		<!--android:maxLength="32"-->
+		<!--android:key="@string/pref_key_aircraft_type"-->
+		<!--android:title="@string/pref_title_aircraft_type"-->
+		<!--android:maxLines="1"-->
+		<!--android:selectAllOnFocus="true"-->
+		<!--android:singleLine="true"/>-->
+
+</PreferenceScreen>

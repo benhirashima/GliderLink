@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<SwitchPreference
+		android:defaultValue="true"
+		android:key="@string/pref_key_show_notifications"
+		android:title="@string/pref_title_show_notifications"/>
+
+	<SwitchPreference
+		android:defaultValue="true"
+		android:dependency="@string/pref_key_show_notifications"
+		android:key="@string/pref_key_notification_new_contact"
+		android:title="@string/pref_title_notification_new_contact"/>
+
+	<SwitchPreference
+		android:defaultValue="true"
+		android:dependency="@string/pref_key_show_notifications"
+		android:key="@string/pref_key_notification_close"
+		android:title="@string/pref_title_notification_close"/>
+
+	<SwitchPreference
+		android:defaultValue="true"
+		android:dependency="@string/pref_key_show_notifications"
+		android:key="@string/pref_key_notification_climbing"
+		android:title="@string/pref_title_notification_climbing"/>
+
+	<!--<SwitchPreference-->
+		<!--android:defaultValue="true"-->
+		<!--android:dependency="@string/pref_key_show_notifications"-->
+		<!--android:key="@string/pref_key_notification_landed"-->
+		<!--android:title="@string/pref_title_notification_landed"/>-->
+
+</PreferenceScreen>

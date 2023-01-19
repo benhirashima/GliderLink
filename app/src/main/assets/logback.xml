@@ -1,0 +1,30 @@
+<configuration>
+	<property name="LOG_DIR" value="/sdcard/GliderLink" />
+
+	<appender name="logcat" class="ch.qos.logback.classic.android.LogcatAppender">
+		<encoder>
+			<pattern>%msg</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="FileLog" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_DIR}/GliderLink.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- daily rollover -->
+			<fileNamePattern>${LOG_DIR}/GliderLink.%d{yyyy-MM-dd}.log</fileNamePattern>
+			<maxHistory>1</maxHistory>
+		</rollingPolicy>
+
+		<encoder>
+			<pattern>%d{HH:mm:ss} [%thread] %-5level %logger{0} - %msg%n</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="link.glider.gliderlink" level="debug" additivity="true">
+		<appender-ref ref="FileLog" />
+	</logger>
+
+	<root level="error">
+		<appender-ref ref="logcat" />
+	</root>
+</configuration>

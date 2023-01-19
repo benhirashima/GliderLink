@@ -1,0 +1,47 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+
+	<style name="GliderOwnship">
+		<item name="glider_background">@color/colorOwnShip</item>
+		<item name="glider_color">@color/colorTransWhite</item>
+	</style>
+
+	<style name="GliderFresh">
+		<item name="glider_background">@color/colorFreshGlider</item>
+		<item name="glider_color">@color/colorTransWhite</item>
+	</style>
+
+	<style name="GliderStale">
+		<item name="glider_background">@color/colorStaleGlider</item>
+		<item name="glider_color">@color/colorTransWhite</item>
+	</style>
+
+	<style name="GliderExpired">
+		<item name="glider_background">@color/colorExpiredGlider</item>
+		<item name="glider_color">@color/colorTransWhite</item>
+	</style>
+
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+	<style name="Switch" parent="Theme.AppCompat.Light">
+		<!-- active thumb & track color (30% transparency) -->
+		<item name="colorControlActivated">@color/colorPositiveGreen</item>
+
+		<!-- inactive thumb color -->
+		<item name="colorSwitchThumbNormal">#f1f1f1
+		</item>
+
+		<!-- inactive track color (30% transparency) -->
+		<item name="android:colorForeground">#212121</item>
+	</style>
+
+</resources>

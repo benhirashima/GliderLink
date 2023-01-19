@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<group android:checkableBehavior="none">
+		<item
+			android:id="@+id/nav_gotenna"
+			android:icon="@drawable/ic_bluetooth_connected_white_24dp"
+			android:title="@string/pair_gotenna" />
+		<item
+			android:id="@+id/nav_maps"
+			android:icon="@drawable/ic_map_white_24dp"
+			android:title="@string/offline_maps" />
+		<item
+			android:id="@+id/nav_demo"
+			android:icon="@drawable/ic_play_circle_filled_black_24dp"
+			android:title="@string/demo_mode" />
+		<item
+			android:id="@+id/nav_stats"
+			android:icon="@drawable/ic_equalizer_charcoal_24dp"
+			android:title="@string/statistics" />
+		<item
+			android:id="@+id/nav_weather"
+			android:icon="@drawable/ic_cloud_charcoal_24dp"
+			android:title="@string/weather"/>
+		<item
+			android:id="@+id/nav_settings"
+			android:icon="@drawable/ic_settings_white_24dp"
+			android:title="@string/settings" />
+		<item
+			android:id="@+id/nav_info"
+			android:icon="@drawable/ic_info_white_24dp"
+			android:title="@string/about" />
+	</group>
+</menu>

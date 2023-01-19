@@ -1,0 +1,162 @@
+<resources>
+	<!-- UI strings -->
+	<string name="settings">Settings</string>
+	<string name="cancel">Cancel</string>
+	<string name="gliders"># Gliders</string>
+	<string name="closest">Closest</string>
+	<string name="naut_miles_abbr">nm</string>
+	<string name="map_hint">Download a map so it is available offline. Scroll to the area you fly in. The visible map area will be downloaded when you press the download button. WiFi strongly recommended!</string>
+	<string name="map_hint_title">Download offline map</string>
+	<string name="title_activity_map">Map Download</string>
+	<string name="title_activity_intro">GliderLink</string>
+	<string name="intro_text">
+	  <![CDATA[
+	    <p>GliderLink helps you and your friends soar as a team, sharing information about your location and the lift you\'ve found.</p>
+	    ]]>
+	</string>
+	<string name="permissions_explanation">
+	  <![CDATA[
+	    <p>GliderLink requires these permissions:</p>
+	    <p><b>Location</b> - Used to show your location on the map, and for sending your location to other pilots.</p>
+	    <p><b>Photos, media, and files</b> - For storing downloaded maps and log files. The app does not access your photos, media, or files unrelated to the app.</p>
+	  ]]>
+	</string>
+	<string name="visit_website_text">
+		<![CDATA[
+			<p>Visit <a href="http://glider.link">http://glider.link</a> for more information.</p>
+		]]>
+	</string>
+	<string name="credits_text">
+		<![CDATA[
+			<p>GliderLink was developed by Ben Hirashima</p>
+			<p><a href="https://github.com/osmdroid/osmdroid">osmdroid</a> is licensed under the <a href="https://github.com/osmdroid/osmdroid/blob/master/LICENSE">Apache License 2.0</a>.
+			<p><a href="https://github.com/tony19/logback-android">logback-android</a> is licensed under the <a href="https://www.eclipse.org/legal/epl-v10.html">Eclipse Public License v1.0</a>.</p>
+			<p><a href="https://flic.kr/p/fmzvpK">Cloud photo</a> copyright Jon Candy licensed under the Creative Commons Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0) <a href="https://creativecommons.org/licenses/by-sa/2.0/">license</a>.</p>
+		]]>
+	</string>
+	<string name="request_permissions">Request Permissions</string>
+	<string name="map_download_failed">Download complete with errors. Try again?</string>
+	<string name="detecting_location">Detecting location&#8230;</string>
+	<string name="pair_gotenna">goTenna Mesh</string>
+	<string name="about">About</string>
+	<string name="offline_maps">Offline Maps</string>
+	<string name="title_activity_gotenna">goTenna Mesh</string>
+	<string name="gotenna_pair"><![CDATA[<p>To pair a goTenna Mesh, turn it on and tap the add button below.</p>]]></string>
+	<string name="gotenna_description">
+	<![CDATA[<p>GliderLink is <em>built on goTenna</em>, which allows you to exchange data with other pilots, peer-to-peer, without a cellular connection. GliderLink is not made by goTenna Inc. IMPORTANT: GliderLink requires a goTenna Mesh device, not the original goTenna.</p>]]>
+	</string>
+	<string name="gotenna_address">
+	<![CDATA[
+	  	<p>Currently paired, but not connected, with a goTenna Mesh with hardware address:</p>
+	  	<p><b>%1$s</b></p>
+	  	<p>Pairing a new goTenna Mesh will un-pair the current one.</p>
+	  ]]>
+	</string>
+	<string name="gotenna_info">
+	  <![CDATA[
+	  	<p>Connected to <b>goTenna Mesh</b></p>
+	  	<p>Hardware address: <b>%1$s</b></p>
+	  	<p>Battery level: <b>%2$d</b></p>
+	  ]]>
+	</string>
+	<string name="gotenna_searching">Searching for goTenna Mesh&#8230;</string>
+	<string name="gotenna_disconnected">goTenna Mesh disconnected</string>
+	<string name="gotenna_error">Error communicating with goTenna Mesh</string>
+	<string name="no_bluetooth_support_message">This device does not support Bluetooth LE</string>
+	<string name="gotenna_timeout">Couldn\'t find a goTenna Mesh. Make sure it\'s turned on.</string>
+	<string name="demo_mode">Demo Mode</string>
+	<string name="missing_callsign">You haven\'t set your callsign yet. Press OK to go to settings.</string>
+	<string name="seconds_ago">ago</string>
+	<string name="statistics">Statistics</string>
+	<string name="stats_text">
+	<![CDATA[
+	  	<p><b>Maximum <em>goTenna Mesh</em> range: %1$s</b>
+	  	<p>Received from:<br/>
+	  	%2$s</p>
+	  	<p>Received at:<br/>
+	  	%3$s</p>
+	  	<p>Set on: %4$s</p>
+	  	<p><b>Maximum gliders at once: %5$d</b><br/>
+	  	<p>Seen at:<br/>
+	  	%6$s<br/></p>
+	  	<p>Set on: %7$s</p>
+	]]>
+	</string>
+	<string name="send_records">New record? Click the button below to share them!</string>
+	<string name="choose_email_program">Choose an app to send email with</string>
+	<string name="records_email_body">Check out my new records from GliderLink</string>
+	<string name="records_email_subject">Records</string>
+	<string name="gotenna_mesh">goTenna</string>
+	<string name="searching">Searching</string>
+	<string name="on">On</string>
+	<string name="off">Off</string>
+	<string name="weather">Weather</string>
+	<string name="weather_text">Currently only the Hollister 1km RASP convergence overlay is supported. More options coming soon. Tap the download button to download the current day\'s convergence maps. The appropriate map for the time of day will be displayed automatically.</string>
+	<string name="download_error_sdcard">SD card not mounted or is read-only.</string>
+	<string name="downloading_weather">Downloading weather data...</string>
+	<string name="finished_downloading_weather">Finished downloading weather</string>
+	<string name="weather_missing">Weather not downloaded. See menu.</string>
+	<string name="fly">FLY</string>
+
+	<!--  Notifications -->
+	<string name="note_landing_text">Landed. Notifying others in:</string>
+	<string name="note_landing_retrieve">Retrieve</string>
+
+	<!-- Strings related to Settings -->
+	<string name="title_activity_settings">Settings</string>
+
+	<!-- Preference keys. Do not translate! -->
+	<string name="pref_key_callsign" translatable="false">callsign</string>
+	<string name="pref_key_pilot_name" translatable="false">pilot_name</string>
+	<string name="pref_key_aircraft_type" translatable="false">aircraft_type</string>
+	<string name="pref_key_show_notifications" translatable="false">show_notifications</string>
+	<string name="pref_key_notification_climbing" translatable="false">notifications_climbing</string>
+	<string name="pref_key_notification_new_contact" translatable="false">notification_new_contact</string>
+	<string name="pref_key_notification_close" translatable="false">notification_close</string>
+	<string name="pref_key_notification_landed" translatable="false">notification_landed</string>
+	<string name="pref_key_gotenna_gid" translatable="false">gotenna_gid</string>
+	<string name="pref_key_distance_units" translatable="false">distance_units</string>
+	<string name="pref_key_altitude_units" translatable="false">altitude_units</string>
+	<string name="pref_key_vert_speed_units" translatable="false">vert_speed_units</string>
+	<string name="pref_key_airspeed_units" translatable="false">airspeed_units</string>
+
+	<!-- Stats preference keys. Do not translate! -->
+	<string name="pref_key_max_distance" translatable="false">max_distance</string>
+	<string name="pref_key_max_dist_timestamp" translatable="false">max_dist_timestamp</string>
+	<string name="pref_key_max_contacts" translatable="false">max_contacts</string>
+	<string name="pref_key_max_contacts_timestamp" translatable="false">max_contacts_timestamp</string>
+	<string name="pref_key_weather_timestamp" translatable="false">weather_timestamp</string>
+	<string name="pref_key_max_dist_my_longitude_float" translatable="false">max_dist_my_longitude</string>
+	<string name="pref_key_max_dist_my_latitude_float" translatable="false">max_dist_my_latitude</string>
+	<string name="pref_key_max_dist_my_altitude_float" translatable="false">max_dist_my_altitude</string>
+	<string name="pref_key_max_dist_their_longitude_float" translatable="false">max_dist_their_longitude</string>
+	<string name="pref_key_max_dist_their_latitude_float" translatable="false">max_dist_their_latitude</string>
+	<string name="pref_key_max_dist_their_altitude_float" translatable="false">max_dist_their_altitude</string>
+	<string name="pref_key_max_contacts_my_longitude_float" translatable="false">max_contacts_my_longitude</string>
+	<string name="pref_key_max_contacts_my_latitude_float" translatable="false">max_contacts_my_latitude</string>
+	<string name="pref_key_max_contacts_my_altitude_float" translatable="false">max_contacts_my_altitude</string>
+
+	<!-- General settings -->
+	<string name="pref_header_general">General</string>
+	<string name="pref_title_callsign">Callsign</string>
+	<string name="pref_title_pilot_name">Pilot Name</string>
+	<string name="pref_title_aircraft_type">Aircraft Type</string>
+
+	<!-- Units settings-->
+	<string name="pref_header_units">Units of Measure</string>
+	<string name="pref_title_distance_units">Distance Units</string>
+	<string name="pref_title_altitude_units">Altitude Units</string>
+	<string name="pref_title_vert_speed_units">Vertical Speed Units</string>
+	<string name="pref_title_airspeed_units">Airspeed Units</string>
+
+	<!--  Notifications settings -->
+	<string name="pref_header_notifications">Notifications</string>
+	<string name="pref_title_show_notifications">Show notifications</string>
+	<string name="pref_title_notification_sound">Notification sound</string>
+	<string name="pref_title_notification_new_contact">New glider contact</string>
+	<string name="pref_title_notification_climbing">Other glider climbing</string>
+	<string name="pref_title_notification_close">Other glider close</string>
+	<string name="pref_title_notification_landed">Other glider landed</string>
+	<string name="title_activity_stats">Stats</string>
+	<string name="action_settings">Settings</string>
+</resources>
